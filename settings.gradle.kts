@@ -13,5 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "NetworkMonitor"
-include ':app'
-include ':library'
+include(
+    ":app",
+    ":library"
+)
